@@ -1,0 +1,26 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+    -->
+
+    <dimen name="dashboard_text_size_title">23sp</dimen>
+    <dimen name="dashboard_text_size_title_big">26sp</dimen>
+    <dimen name="dashboard_text_size_subtitle">16sp</dimen>
+    <dimen name="dashboard_text_size_subtitle_big">19sp</dimen>
+
+    <dimen name="receta_margen_top">16dp</dimen>
+    <dimen name="receta_margen_laterales">64dp</dimen>
+    <dimen name="receta_margen_intermedio">16dp</dimen>
+    <dimen name="receta_margen_ingredientes">16dp</dimen>
+    <dimen name="receta_margen_datos">4dp</dimen>
+    <dimen name="receta_foto_height">300dp</dimen>
+    <dimen name="receta_titulo">35sp</dimen>
+
+    <dimen name="dashboard_item_height">248dp</dimen>
+    <dimen name="dashboard_item_height_big">344dp</dimen>
+
+    <dimen name="drawer_width">320dp</dimen>
+
+</resources>

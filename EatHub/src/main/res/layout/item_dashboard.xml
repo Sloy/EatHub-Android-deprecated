@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/DashboardItem"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/item_dashboard_foto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/placeholder"
+            android:scaleType="centerCrop"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/dashboard_shadow"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/item_dashboard_titulo"
+            android:layout_marginLeft="@dimen/dashboard_text_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cupcakes arcoíris"
+            android:ellipsize="end"
+            android:maxLines="2"
+            style="@style/DashboardOverlayText"
+            android:layout_above="@+id/item_dashboard_subtitulo"
+            android:layout_alignParentLeft="true"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="@color/dashboard_text_title"
+            android:textSize="@dimen/dashboard_text_size_title"/>
+
+        <TextView
+            android:id="@+id/item_dashboard_subtitulo"
+            android:layout_marginBottom="@dimen/dashboard_text_margin"
+            android:layout_marginLeft="@dimen/dashboard_text_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hace 5 días"
+            android:paddingLeft="4dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:textColor="@color/dashboard_text_sub"
+            android:textSize="@dimen/dashboard_text_size_subtitle"/>
+
+    </RelativeLayout>
+</FrameLayout>

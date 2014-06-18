@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Información básica:"
+            android:textColor="@color/eathub_main_color"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+
+            <!-- Nombre -->
+            <TextView
+                android:id="@+id/profile_info_name_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Nombre"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/profile_info_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_light"
+                android:textSize="17sp"
+                tools:text="Virgi Moriel (virsfc)"/>
+
+            <!-- Location -->
+            <TextView
+                android:id="@+id/profile_info_location_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="Ubicación"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+
+            <TextView
+                android:id="@+id/profile_info_location"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_light"
+                android:textSize="17sp"
+                tools:text="Spain"/>
+
+            <!-- Idioma -->
+            <TextView
+                android:id="@+id/profile_info_languages_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="Idiomas"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/profile_info_languages"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_light"
+                android:textSize="17sp"
+                tools:text="Español, Inglés"/>
+
+
+            <!-- Género -->
+            <TextView
+                android:id="@+id/profile_info_gender_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="Género"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/profile_info_gender"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_light"
+                android:textSize="17sp"
+                tools:text="Mujer"/>
+
+            <!-- Web -->
+            <TextView
+                android:id="@+id/profile_info_web_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="Sitio web"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/profile_info_web"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_light"
+                android:textSize="17sp"
+                android:clickable="true"
+                tools:text="www.nailartaddiction.com"/>
+
+            <!-- Fecha de registro -->
+            <!--<TextView
+                android:id="@+id/profile_info_register_date_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingTop="8dp"
+                android:text="Fecha de registro"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <TextView
+                android:id="@+id/profile_info_register_date"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/text_light"
+                android:textSize="17sp"
+                tools:text="19 de Abril de 2014"/>-->
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Perfil de sabores:"
+            android:textColor="@color/eathub_main_color"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/box_white"
+            android:orientation="vertical"
+            android:padding="16dp"
+            >
+
+            <TextView
+                android:id="@+id/profile_info_taste_salty_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Salado"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <ProgressBar
+                android:id="@+id/profile_info_taste_salty"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:indeterminate="false"
+                android:progress="50">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/profile_info_taste_sour_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="Amargo"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <ProgressBar
+                android:id="@+id/profile_info_taste_sour"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:indeterminate="false"
+                android:progress="30">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/profile_info_taste_bitter_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="Agrio"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <ProgressBar
+                android:id="@+id/profile_info_taste_bitter"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:indeterminate="false"
+                android:progress="60">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/profile_info_taste_sweet_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="Dulce"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <ProgressBar
+                android:id="@+id/profile_info_taste_sweet"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:indeterminate="false"
+                android:progress="70">
+            </ProgressBar>
+
+            <TextView
+                android:id="@+id/profile_info_taste_spicy_tag"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="8dp"
+                android:text="Picante"
+                android:textColor="@color/text_dark"
+                android:textSize="17sp"/>
+
+            <ProgressBar
+                android:id="@+id/profile_info_taste_spicy"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:indeterminate="false"
+                android:progress="50">
+            </ProgressBar>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

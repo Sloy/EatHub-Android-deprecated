@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+    style="@style/MenuDrawer.Widget.Title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <View
+        android:id="@android:id/icon1"
+        android:layout_width="@dimen/drawer_indicator_width"
+        android:layout_height="match_parent"
+        android:background="@color/drawer_indicator"
+        android:layout_marginRight="8dp"
+         />
+
+    <ImageView
+        android:id="@android:id/icon2"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_action_recetas"
+        android:visibility="gone"
+        android:layout_marginRight="8dp" />
+        <!--android:tint="@color/drawer_text"-->
+
+    <TextView
+        android:id="@android:id/text1"
+        style="@style/MenuDrawer.Widget.TitleText"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:layout_marginLeft="8dp"
+        android:gravity="center_vertical"
+        tools:text="Example item" />
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+[submodule "libraries/PagerSlidingTabStrip"]
+	path = libraries/PagerSlidingTabStrip
+	url = git@github.com:Sloy/PagerSlidingTabStrip.git

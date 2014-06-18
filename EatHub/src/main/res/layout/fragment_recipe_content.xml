@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/app_background">
+
+    <!-- Sería conveniente cambiar éste y poner algo más óptimo-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/recipe_data_main"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/recipe_data_time"
+                style="@style/recipe_main_data"
+                android:text="30 mins" />
+
+            <View
+                android:layout_width="@dimen/separator_size"
+                android:layout_height="match_parent"
+                android:background="@color/separator" />
+
+            <TextView
+                android:id="@+id/recipe_data_difficulty"
+                style="@style/recipe_main_data"
+                android:text="Fácil" />
+
+            <View
+                android:layout_width="@dimen/separator_size"
+                android:layout_height="match_parent"
+                android:background="@color/separator" />
+
+            <TextView
+                android:id="@+id/recipe_data_serves"
+                style="@style/recipe_main_data"
+                android:text="4 personas" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separator_size"
+            android:background="@color/separator" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:textColor="@color/eathub_main_color"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="12dp" />
+
+        <TextView
+            android:id="@+id/recipe_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="@color/recipe_text"
+            android:textSize="15sp"
+            android:text="Unas piruletas caseras de azúcar la mar de ricas y fáciles de hacer, que volverán locos a los más peques de la casa." />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separator_size"
+            android:background="@color/separator" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:gravity="center"
+            android:textColor="@color/eathub_main_color"
+            android:text="Más datos" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separator_size"
+            android:background="@color/separator" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_recipe_data" />
+
+    <com.sloydev.eathub.ui.widgets.IngredientsView
+        android:id="@+id/recipe_ingredients"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <TextView
+        android:id="@+id/recipe_notes_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/eathub_main_color"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Notas del autor:" />
+
+    <TextView
+        android:id="@+id/recipe_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:padding="8dp"
+        android:background="@drawable/box_white"
+        android:textSize="16sp"
+        android:textColor="@color/recipe_text"
+        android:text="Es una receta que os hará quedar bien con los más peques de casa. Generalmente a los niños" />
+
+    <com.sloydev.eathub.ui.widgets.StepsView
+        android:id="@+id/recipe_steps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_size"
+        android:background="@color/separator"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Comentarios"
+        android:textColor="@color/eathub_main_color"
+        android:fontFamily="sans-serif-light"
+        android:textSize="17sp" />
+
+    <com.sloydev.eathub.ui.widgets.CommentsView
+        android:id="@+id/recipe_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/separator_size"
+        android:background="@color/separator"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="Recetas relacionadas"
+        android:textColor="@color/eathub_main_color"
+        android:fontFamily="sans-serif-light"
+        android:textSize="17sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>-->
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="500dp" />-->
+</LinearLayout>

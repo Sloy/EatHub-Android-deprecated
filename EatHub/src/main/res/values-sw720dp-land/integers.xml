@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="dashboard_max_columnas">3</integer>
+    <integer name="dashboard_columnas_primera_fila">2</integer>
+
+    <integer name="favoritas_grid_columnas">4</integer>
+</resources>

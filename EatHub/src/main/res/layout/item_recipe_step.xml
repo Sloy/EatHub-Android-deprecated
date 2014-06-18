@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="16dp"
+    android:layout_marginBottom="16dp"
+    >
+
+    <TextView
+        android:id="@+id/item_recipe_step_number"
+        style="@style/RecipeStepNumber"
+        android:text="2" />
+
+    <TextView
+        android:id="@+id/item_recipe_step_text"
+        style="@style/RecipeStepText"
+        android:text="Cuando veamos que espese un poco y oscurezca el color le ponemos el colorante que queramos y la esencia. Si queréis hacerlas de fresa, yo lo que hago es ponerle en vez de esencia, un poco de sirope de fresa, que da color y sabor." />
+
+    <ImageView
+        android:id="@+id/item_recipe_step_image"
+        android:layout_width="200dp"
+        android:layout_height="132dp"
+        android:layout_below="@+id/item_recipe_step_text"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/recipe_steps_photo_frame"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/piruletas_2" />
+
+</RelativeLayout>

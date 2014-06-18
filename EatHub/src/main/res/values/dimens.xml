@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Main Activity -->
+    <dimen name="drawer_indicator_width">6dp</dimen>
+    <dimen name="drawer_width">260dp</dimen>
+    <dimen name="drawer_avatar_size">120dp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="separator_size">0.5dp</dimen>
+    <dimen name="recipe_photo_height">252dp</dimen>
+
+    <!-- Recipe -->
+    <dimen name="recipe_avatar_size">92dp</dimen>
+
+    <!-- Profile -->
+    <dimen name="profile_avatar_size">120dp</dimen>
+
+
+    <!-- Dashboard -->
+    <dimen name="dashboard_item_height">168dp</dimen>
+    <dimen name="dashboard_item_height_big">242dp</dimen>
+    <dimen name="dashboard_item_margin">1dp</dimen>
+    <dimen name="dashboard_text_margin">8dp</dimen>
+    <dimen name="dashboard_photo_margin">1dp</dimen>
+    <dimen name="dashboard_text_size_title">17sp</dimen>
+    <dimen name="dashboard_text_size_title_big">21sp</dimen>
+    <dimen name="dashboard_text_size_subtitle">13sp</dimen>
+    <dimen name="dashboard_text_size_subtitle_big">18sp</dimen>
+
+    <dimen name="lista_recetas_altura">84dp</dimen>
+    <dimen name="lista_recetas_titulo">18sp</dimen>
+    <dimen name="lista_recetas_subtitulo">14sp</dimen>
+    <dimen name="separator_ingredient_vertical">0dp</dimen>
+    <dimen name="separator_ingredient_horizontal">16dp</dimen>
+
+    <dimen name="dashboard_loading_smoke_offset">6dp</dimen>
+
+    <!-- Utils -->
+    <dimen name="eight_dip">8dp</dimen>
+    <dimen name="dashboard_loading_base_offset">8dp</dimen>
+</resources>

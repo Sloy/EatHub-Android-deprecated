@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/recipe_photo_height">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/shadow_recipe"/>
+
+    <TextView
+        android:id="@+id/recipe_header_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/recipe_header_subtitle"
+        android:layout_marginLeft="16dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="Piruletas caseras"
+        android:textColor="#DDFFFFFF"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        app:border_color="#FFFFFF"
+        app:border_width="2dp"
+        android:id="@+id/recipe_header_avatar"
+        android:layout_width="@dimen/recipe_avatar_size"
+        android:layout_height="@dimen/recipe_avatar_size"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="-20dp"
+        android:layout_marginRight="-20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/piruletas"
+        />
+    <!--android:translationX="@dimen/avatar_size"-->
+    <!--android:translationY="@dimen/avatar_size"-->
+    <!--tools:translationX="0dp"-->
+    <!--tools:translationY="0dp"-->
+
+    <TextView
+        android:id="@+id/recipe_header_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="16dp"
+        android:text="Por Virgi"
+        android:textColor="#ffc6c6c6"/>
+
+</RelativeLayout>

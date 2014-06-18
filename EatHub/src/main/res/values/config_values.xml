@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="api_endpoint">https://eathub.me/api</string>
+    <string name="app_name">EatHub</string>
+</resources>

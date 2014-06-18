@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/dashboard_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone"
+        tools:visibility="visible"
+        >
+
+        <ImageView
+            android:id="@+id/dashboard_loading_smoke"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cooking_smoke"
+            android:alpha="0.2"
+            />
+        <ImageView
+            android:id="@+id/dashboard_loading_base"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cooking_base"
+            android:alpha="0.2"
+            />
+        <TextView
+            android:id="@+id/dashboard_loading_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Cargando recetas…"
+            android:alpha="0.2"
+            />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        tools:context=".HomeActivity"
+        tools:visibility="gone">
+
+    </ListView>
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#ffeeeeee</color>
+    <color name="eathub_main_color">#CC3E27</color>
+
+    <!-- Main Activity -->
+    <color name="drawer_background">#ffffff</color>
+    <color name="drawer_indicator">#CC3E27</color>
+    <color name="drawer_text">#ff727272</color>
+    <color name="drawer_text_category">#9D9D9D</color>
+
+    <!-- Dashboard -->
+    <color name="dashboard_text_sub">#999999</color>
+    <color name="dashboard_text_title">#E6E6E6</color>
+
+
+    <color name="separator">#ffc2c2c2</color>
+    <color name="text_light">#ffa7a7a7</color>
+    <color name="text_dark">#ff545454</color>
+    <color name="ingredients_background">#FCF0AD</color>
+    <color name="ingredients_separator">#ff838383</color>
+    <color name="separator_circle">#ffd3d3d3</color>
+    <color name="recipe_text">#ff727272</color>
+    <color name="black">#000000</color>
+    <color name="main_color_minus_opacity">#ca3320</color>
+
+    <drawable name="ab_background">#CC3E27</drawable>
+</resources>

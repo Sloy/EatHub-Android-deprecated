@@ -1,0 +1,10 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    -->
+    <dimen name="receta_margen_laterales">220dp</dimen>
+    <dimen name="receta_foto_height">350dp</dimen>
+
+</resources>

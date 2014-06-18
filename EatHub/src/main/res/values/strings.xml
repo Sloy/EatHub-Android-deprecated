@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Abrir menú</string>
+    <string name="drawer_close">Cerrar menú</string>
+    <string name="title_dashboard">Últimas recetas</string>
+    <string name="title_profile">Perfil</string>
+    <string name="recipe_author_pattern">Por %s</string>
+    <string name="recipe_time_pattern">%d mins</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor euismod sapien, in tincidunt risus vestibulum sit amet. Vivamus scelerisque cursus tortor, non rutrum leo tincidunt sit amet. Duis ultrices nisi mattis, placerat dui sed, vehicula arcu. Sed quam odio, sagittis a arcu vel, ullamcorper gravida ante. Aliquam ultrices suscipit justo vitae interdum. Donec interdum risus commodo ullamcorper facilisis. Vestibulum mollis posuere lacus, at eleifend tortor auctor eget. Nulla eu nisi vel mi imperdiet ultrices ac at quam. Fusce purus turpis, auctor pellentesque semper in, accumsan vitae lorem.\n
+\n
+Donec porttitor, turpis vitae mattis ornare, tortor nunc pellentesque diam, vitae luctus nisl orci fermentum libero. Vestibulum sit amet magna sed dolor porta aliquet. Duis cursus risus faucibus leo porttitor, vitae porta justo vehicula. Donec facilisis bibendum felis, a pretium sapien auctor et. Integer a placerat risus. Aenean vitae mollis urna. Praesent eu dignissim metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam ullamcorper non velit vel commodo. Sed scelerisque condimentum velit eget posuere. Vestibulum tempus mi eget viverra auctor. Cras at scelerisque orci, vitae blandit sapien. Etiam ut nulla elit. Nam venenatis nibh lacus, sed iaculis lacus sagittis quis.\n
+    \n
+    Phasellus nibh velit, imperdiet in nisi sit amet, aliquet cursus leo. Nam molestie, ligula eget consectetur interdum, nisi eros auctor mauris, sit amet ornare velit urna eu nisl. Integer mattis fermentum euismod. Aliquam erat volutpat. Aenean et mauris vitae lacus consectetur laoreet. Phasellus posuere tincidunt tristique. Proin mollis ipsum sed lobortis vestibulum. Pellentesque ut fringilla est, ut pharetra tellus. Maecenas tellus est, semper pulvinar augue vitae, egestas facilisis diam. Aliquam tempor, elit sed cursus condimentum, sapien lectus pellentesque nisl, tempus aliquam turpis mauris non leo. Aenean rutrum, lacus elementum euismod fringilla, est tellus tincidunt nisi, id interdum eros purus in erat.\n
+\n
+Integer ullamcorper scelerisque turpis, sit amet blandit nunc sollicitudin eu. Nunc rutrum, odio sed semper pretium, arcu massa iaculis lectus, nec euismod eros justo luctus elit. Cras cursus dui eget ante eleifend, sed luctus turpis ullamcorper. Proin eu euismod elit. Aenean tempus imperdiet enim sed congue. Proin facilisis sem est, in ullamcorper magna elementum eget. Vestibulum iaculis hendrerit felis, non eleifend urna molestie quis. Nulla scelerisque at justo congue lacinia. Suspendisse egestas quam ut turpis fringilla dapibus. Sed quis urna nisl. Praesent eget libero sed massa imperdiet rhoncus. Integer lorem sapien, ultrices a bibendum non, dapibus nec est.\n
+\n
+Aenean ullamcorper, felis vel malesuada ultrices, nunc libero tincidunt sapien, ut porttitor velit sem sed odio. Donec lobortis quis justo et hendrerit. Duis turpis nibh, congue et diam et, eleifend placerat sapien. Cras sit amet urna tempus, posuere nibh quis, lacinia tellus. Vivamus viverra, turpis nec luctus posuere, est justo sagittis sem, sit amet rutrum libero dui vitae elit. Cras venenatis est a malesuada eleifend. Vestibulum luctus nulla non dapibus sollicitudin. Duis a tincidunt est. Phasellus ut molestie velit, a vehicula lectus. Nulla in magna laoreet, ornare dolor nec, cursus ipsum. Nam suscipit ut massa at dignissim.\n
+\n</string>
+
+    <string-array name="recipe_difficulty">
+        <item>Fácil</item>
+        <item>Normal</item>
+        <item>Difícil</item>
+    </string-array>
+
+    <string name="title_activity_google_plus">GooglePlusActivity</string>
+
+</resources>

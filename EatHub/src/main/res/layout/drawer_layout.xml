@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/left_drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/drawer_width"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="@color/drawer_background"
+    >
+
+    <RelativeLayout
+        android:id="@+id/left_drawer_profile"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:layout_alignParentTop="true"
+        >
+
+        <ImageView
+            android:id="@+id/left_drawer_profile_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="#ff8c8c8c"
+            tools:src="@drawable/profile_background"
+            />
+
+        <!--<de.hdodenhof.circleimageview.CircleImageView-->
+        <ImageView
+            android:id="@+id/left_drawer_profile_avatar"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/user_anon"
+            tools:src="@drawable/sloydev_profile"
+            app:border_color="#FFFFFF"
+            app:border_width="1dp"
+            />
+
+        <TextView
+            android:id="@+id/left_drawer_profile_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/left_drawer_profile_avatar"
+            android:layout_toRightOf="@id/left_drawer_profile_avatar"
+            android:text="Sign in"
+            android:textColor="#eeeeee"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Rafa Vázquez"
+            />
+
+        <TextView
+            android:id="@+id/left_drawer_profile_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/left_drawer_profile_avatar"
+            android:layout_marginBottom="4dp"
+            android:layout_toRightOf="@+id/left_drawer_profile_avatar"
+            android:text="Log in with your account"
+            android:textColor="#eeeeee"
+            android:textSize="13sp"
+            tools:text="rafa.vazsan@gmail.com"
+            />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/left_drawer_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/left_drawer_version"
+        android:layout_below="@+id/left_drawer_profile"
+        android:cacheColorHint="#00000000"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        tools:listitem="@layout/drawer_item"/>
+
+    <TextView
+        android:id="@+id/left_drawer_version"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        tools:text="Version 0.0-beta"/>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/item_recipe_image"
+        android:layout_width="@dimen/lista_recetas_altura"
+        android:layout_height="@dimen/lista_recetas_altura"
+        android:scaleType="centerCrop"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/item_recipe_image"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@+id/item_recipe_image"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/item_recipe_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="2"
+            android:text="Piruletas caseras de fresa con azúcar y virutitas ricas de colorines"
+            android:textSize="@dimen/lista_recetas_titulo"/>
+
+        <TextView
+            android:id="@+id/item_recipe_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Por Virgi el día 6 de mayo de 2011"
+            android:textAllCaps="true"
+            android:textColor="#666666"
+            android:textSize="@dimen/lista_recetas_subtitulo"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
